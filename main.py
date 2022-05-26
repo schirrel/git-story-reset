@@ -5,7 +5,7 @@ mergedCommit = str(mergedCommit)
 
 try:
     print("Getting commits after merge")
-    commits = os.system(f"git rev-list {mergedCommit}...HEAD --reverse")
+    commits = [os.system(f"git rev-list {mergedCommit}...HEAD --reverse")]
     print(f"Commit hashs: {commits}\n")
 
     print("\nGetting commit before merge")
