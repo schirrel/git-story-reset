@@ -19,7 +19,7 @@ print("\nExecuting cherry pick")
 try:
     for commit in commits:
         print(f"Executing cherry pick of {commit}")
-        os.system(f"cherry-pick {commit} --strategy-option=theirs")
+        os.system(f"git cherry-pick {commit} --strategy-option=theirs")
 
     os.system("git push --force")
 except Exception:
