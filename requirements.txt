@@ -1,0 +1,8 @@
+certifi==2022.5.18.1
+distlib==0.3.4
+filelock==3.7.0
+pipenv==2022.5.2
+platformdirs==2.5.2
+six==1.16.0
+virtualenv==20.14.1
+virtualenv-clone==0.5.7
